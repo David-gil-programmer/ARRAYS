@@ -41,5 +41,5 @@ public class Ejercicio6 {
         } else {
             return resultado = false;
         }
-    }
+    }//REVISAR
 }

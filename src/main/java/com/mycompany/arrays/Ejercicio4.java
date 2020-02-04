@@ -20,6 +20,9 @@ public class Ejercicio4 {
         int valor = 4;
         
         rellenar(arrayEntero);
+
+
+    }
     
         public static void rellenar(int[] arrayEntero){
             Random aleatorio = new Random();
@@ -29,7 +32,6 @@ public class Ejercicio4 {
             
         }
         public static int buscarNumero(int[] array, int numero){
-            int n = 0;
             for(int i = 0; i<array.length; i++){
                 if(array[i] == numero){
                     return i;
@@ -37,7 +39,4 @@ public class Ejercicio4 {
             }
             
         }
-
-    }
-
 }
